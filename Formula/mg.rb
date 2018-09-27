@@ -2,9 +2,8 @@ class Mg < Formula
   desc "Small Emacs-like editor"
   # https://devio.us/~bcallah/mg/ is temporarily offline
   homepage "https://github.com/ibara/mg"
-  # https://devio.us/~bcallah/mg/mg-20180421.tar.gz is temporarily offline
-  url "https://dl.bintray.com/homebrew/mirror/mg-20180421.tar.gz"
-  sha256 "11215613a360cf72ff16c2b241ea4e71b4b80b2be32c62a770c1969599e663b2"
+  url "https://github.com/ibara/mg/releases/download/mg-20180927/mg-20180927.tar.gz"
+  sha256 "99b2fd2cf9d6474153d6c5769c818dd5514c147b8a8ad660a5e114bc1ebd504d"
 
   bottle do
     cellar :any_skip_relocation
